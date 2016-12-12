@@ -28,9 +28,11 @@ import io.plaidapp.data.api.ClientAuthInterceptor;
 import io.plaidapp.data.api.DenvelopingConverter;
 import io.plaidapp.data.api.designernews.DesignerNewsService;
 import io.plaidapp.data.api.designernews.model.User;
+import io.plaidapp.util.ShortcutHelper;
 import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
+import retrofit2.http.HEAD;
 
 /**
  * Storing Designer News user state
